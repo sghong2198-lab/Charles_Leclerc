@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+
+    border: 1px solid black;
+}
+
+.container {
+    width: 1200px;
+    height: 700px;
+
+    margin: 0 auto;
+}
+
+.header {
+    width: 1200px;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+}
+
+.logo img {
+    width: 200px;
+    height: 80px;
+}
+
+.menu {
+    width: 600px;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu li {
+    width: 150px;
+    height: 25px;
+    text-align: center;
+
+    transition: 0.5s;
+}
+
+.menu li:hover {
+    background-color: salmon;
+    color: white;
+
+
+}
+
+.slide {
+    width: 1200px;
+    height: 300px;
+
+    overflow: hidden;
+}
+
+.slide li {
+
+    width: 1200px;
+    height: 300px;
+    animation: slide 6s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(-0px);
+    }
+
+    33% {
+        transform: translateY(-300px);
+    }
+
+    66% {
+        transform: translateY(-600px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+
+}
+
+
+.contents {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+}
+
+.notice {
+    width: 400px;
+    height: 200px;
+}
+
+.banner {
+    width: 400px;
+    height: 200px;
+}
+
+.contents button {
+    width: 120px;
+    height: 25px;
+    background-color: crimson;
+    color: wheat;
+    text-align: center;
+}
+
+
+.shortcut {
+    width: 400px;
+    height: 200px;
+}
+
+.box1 {
+    width: 400px;
+    height: 175px;
+}
+
+.box1 li {
+    margin-top: 8px;
+}
+.box1 li:hover {
+    background-color: gray;
+    color: white;
+}
+.box2 {
+    width: 400px;
+    height: 175px;
+}
+
+.box3 {
+    width: 400px;
+    height: 175px;
+
+}
+
+.footer {
+    width: 1200px;
+    height: 100px;
+}
