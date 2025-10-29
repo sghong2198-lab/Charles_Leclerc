@@ -49,6 +49,7 @@
     text-align: center;
 
     transition: 0.5s;
+    border: 1px solid #ccc;
 }
 
 .menu li:hover {
@@ -109,6 +110,11 @@
     height: 200px;
 }
 
+.banner img {
+    width: 400px;
+    height: 175px;
+}
+
 .contents button {
     width: 120px;
     height: 25px;
@@ -130,12 +136,20 @@
 
 .box1 li {
     margin-top: 8px;
+
 }
+
 .box1 li:hover {
     background-color: gray;
     color: white;
 }
+
 .box2 {
+    width: 400px;
+    height: 175px;
+}
+
+.box2 img {
     width: 400px;
     height: 175px;
 }
@@ -143,10 +157,46 @@
 .box3 {
     width: 400px;
     height: 175px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+}
 
+.box3 img {
+    width: 100px;
+    height: 100px;
 }
 
 .footer {
     width: 1200px;
     height: 100px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.logo2 {
+    width: 200px;
+    height: 80px;
+}
+
+.iogo2 img {
+    width: 200px;
+    height: 60px;
+}
+
+.copy {
+    width: 800px;
+    height: 100px;
+
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sns {
+    width: 200px;
+    height: 100px;
+    display: flex;
+
 }
